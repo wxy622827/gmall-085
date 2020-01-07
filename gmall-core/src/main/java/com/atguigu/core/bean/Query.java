@@ -20,7 +20,6 @@ import org.apache.commons.lang.StringUtils;
  */
 public class Query<T> {
 
-
     public IPage<T> getPage(QueryCondition params) {
         return this.getPage(params, null, false);
     }
